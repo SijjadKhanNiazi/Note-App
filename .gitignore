@@ -1,0 +1,14 @@
+# Node
+node_modules/
+.env
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
