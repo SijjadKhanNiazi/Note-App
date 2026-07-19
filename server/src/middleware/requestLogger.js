@@ -11,7 +11,7 @@ const requestLogger = pinoHttp({
         url: req.url,
         ip: req.ip,
       };
-    }, //////
+    },
     res(res) {
       return {
         statusCode: res.statusCode,
